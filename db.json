@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "name": "Oleg",
+      "age": 21,
+      "email": "oleg10@gmail.com",
+      "id": "c139b7bf-90ed-4e45-a62b-610b0fb473d1"
+    },
+    {
+      "name": "Maks",
+      "age": 191,
+      "email": "makss7@gmail.com",
+      "id": "ef78d82c-4ccd-462d-ae93-a54d6f92b174"
+    },
+    {
+      "name": "Oleg",
+      "age": 235,
+      "email": "oleg@qwe",
+      "id": "c3fa864c-6a8d-4e78-ac27-cd7aec4465c2"
+    },
+    {
+      "id": "800eaee9-fd02-45de-913c-a301caed7955",
+      "name": "Maksss",
+      "age": 212,
+      "email": "erwejhb@qweqw"
+    },
+    {
+      "id": "aed127d6-794d-4a02-bc18-ea6f97de994f",
+      "name": "werghwerfj",
+      "age": 1223,
+      "email": "bwrfbwe@weugryu"
+    },
+    {
+      "id": "9b6ea62d-39c4-49fe-9392-3308e54ea085",
+      "name": "Roman",
+      "age": 32,
+      "email": "qwerty@qwe"
+    },
+    {
+      "id": "b41f8730-b1fc-47c4-98e8-6531e1e1bc02",
+      "name": "gjhugweu",
+      "age": 123,
+      "email": "erfewur@qqweqw"
+    }
+  ]
+}

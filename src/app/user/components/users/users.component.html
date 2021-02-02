@@ -1,0 +1,12 @@
+<div class="container" *ngFor="let user of users">
+  <div class="user-block">
+    <div class="user-block--left">
+      <p>{{user.name}} - {{user.age}}</p>
+      <button class="user-btn--info" (click)="navigateToMoreInfo(user)">more info</button>
+    </div>
+    <div class="user-block--right">
+      <button class="user-btn--edit" (click)="editUser(user)"></button>
+      <button class="user-btn--delete" (click)="deleteUser(user)"></button>
+    </div>
+  </div>
+</div>

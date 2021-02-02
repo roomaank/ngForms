@@ -1,0 +1,29 @@
+.header {
+  &-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+
+  &-button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color: #ab8e69;
+  }
+
+  &-button:active{
+      color: #ab8e69;
+      background-color: white;
+      border: 1px solid #ab8e69;
+  }
+
+
+}

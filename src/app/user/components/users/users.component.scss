@@ -1,0 +1,96 @@
+%position {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.user {
+  &-block {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+  }
+
+  &-block:hover {
+    background-color: rgb(212, 212, 212);
+  }
+
+  &-block:hover .user-btn--edit {
+    opacity: 1;
+  }
+
+  &-block:hover .user-btn--info {
+    opacity: 1;
+  }
+
+  &-block--left {
+    padding: 5px 20px;
+    height: 70px;
+    @extend %position;
+  }
+
+  &-block--left p {
+    margin: 0;
+    font-size: 22px;
+  }
+
+  &-block--right {
+    padding: 5px 20px;
+    height: 70px;
+    flex-direction: row;
+    @extend %position;
+  }
+
+  &-btn--info {
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    opacity: 0;
+  }
+
+  &-btn--info:active {
+  }
+
+  &-btn--edit {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    opacity: 0;
+    background-color: transparent;
+    box-shadow: 0 6px 6px rgb(10 16 20 / 15%), 0 0 52px rgb(10 16 20 / 12%);
+    background-image: url(../../../../assets/images/edit.png);
+  }
+
+  &-btn--edit:active {
+    background-image: url(../../../../assets/images/edit-blue.png);
+  }
+
+  &-btn--delete {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    background-image: url(../../../../assets/images/cancel.png);
+  }
+
+  &-btn--delete:active {
+    background-image: url(../../../../assets/images/cancel-red.png);
+  }
+}
